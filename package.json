@@ -20,8 +20,12 @@
     "storybook": "storybook start -p 7007",
     "lint": "standard --verbose | snazzy",
     "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs standard | snazzy",
-    "fixcode": "standard --fix",
-    "git-hook": "npm run lint -s && npm run test -s"
+    "fixcode": "standard --fix"
+  },
+  "rnpm": {
+    "assets": [
+      "./App/fonts/"
+    ]
   },
   "dependencies": {
     "apisauce": "^0.14.0",
@@ -54,7 +58,6 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react-native": "3.0.2",
     "enzyme": "^2.6.0",
-    "husky": "^0.13.1",
     "ignite-animatable": "^1.0.0",
     "ignite-i18n": "^1.1.1",
     "ignite-ir-boilerplate": "^2.2.2",
