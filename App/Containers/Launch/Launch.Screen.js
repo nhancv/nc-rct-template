@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { ScrollView, Text, Image, View } from 'react-native'
-import { Images } from '../Themes'
+import { Images } from '../../Themes/index'
 
 // Styles
-import styles from './Styles/LaunchScreenStyles'
+import styles from './Launch.Styles'
 
 export default class LaunchScreen extends Component {
   render () {
