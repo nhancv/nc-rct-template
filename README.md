@@ -65,3 +65,12 @@ The `.env` file is ignored by git keeping those secrets out of your repo.
 2. Add your config variables
 3. Follow instructions at [https://github.com/luggit/react-native-config#setup](https://github.com/luggit/react-native-config#setup)
 4. Done!
+
+
+### Tools
+1. Create project: https://github.com/infinitered/ignite
+2. App icon generator: https://github.com/dwmkerr/app-icon
+3. Custom fonts: https://medium.com/react-native-training/react-native-custom-fonts-ccc9aacf9e5e
+
+
+
